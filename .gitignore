@@ -1,0 +1,5 @@
+*.рус
+*~
+pycache
+venv
+.DS_Store

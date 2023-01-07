@@ -1,0 +1,12 @@
+{% extends "blog/base_blog.html" %}
+{% block title %}
+    Home
+{% endblock title %}
+{% block content %}
+    <article>
+        {% for post in posts %}
+            {% include "blog/includes/post_template.html" %}
+        {% endfor %}
+    </article>
+{% endblock content %}
+
